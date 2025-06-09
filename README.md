@@ -1,2 +1,2 @@
-# biblioteca-frontend
+# Biblioteca QWA
 React + Tailwind + Keycloak Auth
