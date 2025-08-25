@@ -1,25 +1,13 @@
-import { Card } from "@chakra-ui/react";
+import { Header } from "./components/Header";
+import Dashboard from "./pages/Dashboard/page";
 
 function App() {
   return (
-    <>
-      <Card.Root width="200px">
-        <Card.Body>
-          <Card.Title mt="2">150</Card.Title>
-          <Card.Description>
-            Livros emprestados.
-          </Card.Description>
-        </Card.Body>
-      </Card.Root>
-       <Card.Root width="200px">
-        <Card.Body>
-          <Card.Title mt="2">360</Card.Title>
-          <Card.Description>
-            Livros disponíveis.
-          </Card.Description>
-        </Card.Body>
-      </Card.Root>
-    </>
+    <main className="w-full h-full flex flex-col">
+      <Header/>
+      <Dashboard/>
+    </main>
+    
   );
 }
 
